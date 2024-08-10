@@ -18,4 +18,13 @@ This project provides an AWS Lambda function written in Go to upload files to IP
 }
 ```
 
+## Return example
+```json
+{
+  "uri": "ipfs://CID",
+  "filename": "example.jpg",
+  "id": "12345" // You can modify it if you dont want the id lol
+}
+```
+
 have fun :3
